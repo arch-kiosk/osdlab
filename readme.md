@@ -1,14 +1,9 @@
-# 💼 The Office
+# ⚗️ 🧪 Image Annotation Lab Project 🧪 ⚗️
  
-## 🤸🏿👽🕵️ This repository is for people 🤸🤖🎅
+This is a research project to test and fuzz around with image annotation topics.
+You don't want to clone this.
 
-No matter for which field-project or which part of the software, it is here and only here in this repository where we all collaborate, report bugs and ideas, discuss ...
-
-## typical workplaces
-- 🧪 [testers work here](https://github.com/orgs/arch-kiosk/projects/23)
-- 🪲 [please file requests and bug tickets under Issues](https://github.com/arch-kiosk/arch-kiosk-office/issues)
-
-## other places
+## ⚗️ better go elsewhere
 
 📗 **documentation and video tutorials for users and admins can be found on the official [Kiosk web-site](https://sites.brown.edu/kiosk)**
 
