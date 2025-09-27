@@ -52,6 +52,13 @@ export default defineConfig(({ command, mode }) => {
             }),
         ],
 
+        resolve: {
+            alias: {
+                // Add alias to resolve the deep static paths
+                "@kiosk": "../../kiosk/kiosk",
+            }
+        },
+
         esbuild:
             command == "build"
                 ? {

@@ -32,14 +32,14 @@
   },
   "dependencies": {
     "lit": "^3.2.1",
-    "openseadragon": "github:arch-kiosk/openseadragon#imagetilesource_with_ajax"
+    "openseadragon": "github:arch-kiosk/openseadragon#imagetilesource_with_ajax",
+    "@arch-kiosk/kiosktsapplib": "^0.3.2"
   },
   "devDependencies": {
     "rollup-plugin-license": "^3.6.0",
     "@types/ejs": "^3.1.5",
     "@types/openseadragon": "^4.1.0",
     "prettier": "^3.6.2",
-    "rollup-plugin-copy": "^3.5.0",
     "sass": "^1.93.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.2",
