@@ -5,6 +5,7 @@ import dts from 'vite-plugin-dts'
 import path from "path";
 
 // noinspection JSUnusedGlobalSymbols
+
 export default defineConfig(({ command, mode }) => {
     const env = loadEnv(mode, "env");
     return {
@@ -67,12 +68,12 @@ export default defineConfig(({ command, mode }) => {
                 }
                 : {},
         build: {
-            outDir: mode === "bundle"?"./kioskbundle":"./dist",
+            outDir: "./dist",
             emptyOutDir: true,
             minify: true,
 
             lib: {
-                entry: "./kioskuicomponents.ts",
+                entry: "./ialab.ts",
                 formats: ["es"],
             },
             //bundle 3rd party libraries only in mode "bundle". Mode bundle is for the package that is being used by SPAs
@@ -85,7 +86,7 @@ export default defineConfig(({ command, mode }) => {
         server: {
             hmr: true,
             host: true,
-            proxy: {
+            xproxy: {
 
                 // '/foo': 'http://localhost:4567',
                 "/static/assets/images": {
@@ -143,6 +144,6 @@ export default defineConfig(({ command, mode }) => {
                 allow: [searchForWorkspaceRoot(process.cwd()), "../../../static/scripts/kioskapplib"],
             },
         },
-        publicDir: "/public",
+        publicDir: false,
     };
 });

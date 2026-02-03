@@ -9,6 +9,7 @@
 import {TemplateResult, unsafeCSS, LitElement} from "lit";
 import { html } from "lit/static-html.js";
 import local_css from "./styles/test-app.sass?inline";
+import "./ialabosd1.ts"
 
 // noinspection CssUnresolvedCustomProperty
 
@@ -68,7 +69,7 @@ export class TestApp extends LitElement {
     }
 
     renderContent() {
-        return html``
+        return html`<ialab-osd-1></ialab-osd-1>`
     }
 
     // apiRender is only called once the api is connected.
