@@ -1,14 +1,14 @@
 {
-  "name": "@arch-kiosk/ialab",
+  "name": "@arch-kiosk/osdlab",
   "version": "0.1.0",
   "type": "module",
   "types": "./dist/index.d.ts",
-  "main": "./ialab.ts",
+  "main": "./osdlab.ts",
   "exports": {
     ".": {
       "import": {
         "types": "./dist/index.d.ts",
-        "default": "./dist/ialab.js"
+        "default": "./dist/osdlab.js"
       }
     }
   },

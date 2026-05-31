@@ -1,6 +1,6 @@
-# ⚗️ 🧪 Image Annotation Lab Project 🧪 ⚗️
+# ⚗️ 🧪 OSD Lab Project 🧪 ⚗️
  
-This is a research project to test and fuzz around with image annotation topics.
+This is a research project to test and fuzz around with OpenSeaDragon topics.
 You don't want to clone this.
 
 ## ⚗️ better go elsewhere
